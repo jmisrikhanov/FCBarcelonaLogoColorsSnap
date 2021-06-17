@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 110px;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start ;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    /* scroll-padding: 30vh; */
+    
+}
+
+.logo{
+    background-image: linear-gradient(#EDBB00, #004D98,#A50044,#DB0030, #FFED02,#000000)
+}
+
+img{
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.gold{
+    background: #EDBB00;
+}
+
+.blue{
+    background: #004D98;
+}
+
+.burgundy{
+    background: #A50044;
+}
+
+.red{
+    background: #DB0030;
+}
+
+.yellow{
+    background:#FFED02;
+}
+
+.black{
+    background:#000000;
+}
